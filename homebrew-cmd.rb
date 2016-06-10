@@ -5,14 +5,14 @@
 class HomebrewCmd < Formula
   desc ""
   homepage ""
-  url "https://github.com/cundohubs/homebrew-cmd/archive/0.0.2.tar.gz"
-  version "0.0.2"
+  url "https://github.com/cundohubs/homebrew-cmd/archive/0.0.3.tar.gz"
+  version "0.0.3"
   sha256 "e86d36147282c74ca812632d421ec8cf9844a74549c8aaf7facd3703acb0af71"
 
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    bin.install "formalfriday"
+    bin.install "curalate"
   end
 
 end
