@@ -12,7 +12,7 @@ class HomebrewCmd < Formula
 
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
-    bin.install "curalate"
+    bin.install "curalate.py"
   end
 
 end
