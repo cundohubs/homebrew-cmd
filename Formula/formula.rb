@@ -4,5 +4,6 @@ class Curabrew < Formula
   sha1 ""
 
   def install
+    bin.install "curalate"
   end
 end
